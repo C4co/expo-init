@@ -8,5 +8,9 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+  ],
+  "baseUrl": "./",
+  "paths": {
+    "@/components": ["components/"],
+  }
 }
